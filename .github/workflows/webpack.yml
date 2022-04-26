@@ -20,4 +20,4 @@ jobs:
     steps:
       - name: Build
         run: |
-          echo $TOKEN
+          echo $GITHUB_TOKEN
